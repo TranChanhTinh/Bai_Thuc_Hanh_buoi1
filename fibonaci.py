@@ -8,7 +8,7 @@ def fibonacci(n):
             fib_de_quy.append(fib_de_quy[-1] + fib_de_quy[-2])
     return fib_de_quy
 def fibonacci_ko_de_quy(n):
-    assert n >= 0 and int(n) == n, 'The number must be a non-negative integer only!'
+    assert n >= 0 and int(n) == n
     if n in [0, 1]:
         return n
 
